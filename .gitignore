@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# swap files
+*.swp
+*.swo
+
+# cache
+.cache/
+log/
+
+# lazy.nvim
+lazy-lock.json
+
+# local settings
+.luarc.json
