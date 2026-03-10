@@ -12,5 +12,3 @@ log/
 # lazy.nvim
 lazy-lock.json
 
-# local settings
-.luarc.json
