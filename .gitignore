@@ -9,6 +9,4 @@
 .cache/
 log/
 
-# lazy.nvim
-lazy-lock.json
 
