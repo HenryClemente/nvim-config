@@ -9,4 +9,5 @@
 .cache/
 log/
 
-
+# lazy lock
+lazy-lock.json
