@@ -43,3 +43,9 @@ keymap.set("n", "<leader>ca", lsp.buf.code_action, { desc = "Code action" })
 keymap.set("n", "<leader>ld", diagnostic.open_float, { desc = "Line diagnostics" })
 keymap.set("n", "[d", diagnostic.goto_prev, { desc = "Previous diagnostic" })
 keymap.set("n", "]d", diagnostic.goto_next, { desc = "Next diagnostic" })
+
+-- 121s markdown template
+keymap.set("n", "<leader>mt", function()
+  vim.cmd("normal! G")
+  vim.cmd("read ~/management/121s/templates/1on1.md")
+end, { desc = "Append 121 template" })
