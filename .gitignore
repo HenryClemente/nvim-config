@@ -9,6 +9,5 @@
 .cache/
 log/
 
-# lazy lock
-lazy-lock.json
-
+# Share exact plugin revisions between macOS and WSL.
+!lazy-lock.json
